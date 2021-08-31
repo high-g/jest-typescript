@@ -3,9 +3,13 @@
     "target": "es5",
     "module": "commonjs",
     "outDir": "./dist",
+    "baseUrl": "./src/",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "paths": {
+      "#/*": ["*"]
+    }
   }
 }
